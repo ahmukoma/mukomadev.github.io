@@ -1,0 +1,36 @@
+.navarea .logo{
+    text-align: center;
+}
+.logo .design{
+    position: relative;
+    width: 20px;
+    height: 70px;
+    background: #fff;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.logo .design:before{
+    position: absolute;
+    bottom: 0;
+    content: '';
+    font-size: 100px;
+    width: 100%;
+    height: 70%;
+    left: 110%;
+    background: #08f;
+    border-top-left-radius: 100px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.logo .design:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    left: 220%;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
